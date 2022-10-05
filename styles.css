@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+:root {
+    --primary-first: #202020;
+    --primary-second: #ebebeb;
+    --third-color: #575757;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    background-color: var(--primary-first);
+    color: var(--primary-second);
+    margin: 0;
+}
+
+#header {
+    background-color: var(--primary-second);
+    color: var(--primary-first);
+    padding: 0.2rem 0 0.2rem 0;
+}
+
+#main {
+    margin: 3rem 0;
+}
+
+input {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.7rem;
+    border: 1px solid var(--primary-second);
+    border-radius: 0.2rem;
+}
+
+#check-btn {
+    margin: 1rem;
+    padding: 0.5rem 1.5rem;
+    color: var(--primary-second);
+    background-color: var(--third-color);
+    border: 1px solid var(--primary-second);
+    border-radius: 0.2rem;
+}
+
+#check-btn:hover {
+    background-color: var(--primary-second);
+    color: var(--primary-first);
+    border: 1px solid var(--primary-second);
+    font-weight: bold;
+}
+
+#output {
+    padding: 1rem 0 5rem 0;
+    max-width: 350px;
+    margin: 1rem auto;
+    font-size: larger;
+}
+
+#footer {
+    background-color: var(--primary-second);
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    padding: 1.5rem 0 0.5rem 0;
+}
+
+#footer #links-social {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+#footer #links-social .social {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+#footer #links-social .social .ionicons {
+    font-size: 32px;
+    color: var(--primary-first);
+}
